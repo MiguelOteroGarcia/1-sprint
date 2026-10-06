@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Laboratorio Fundación · Primer recorrido</title><link rel="stylesheet" href="estilos.css"></head>
+<body>
+<header><span class="marca">FM · Laboratorio</span><h1>Una reserva, paso a paso</h1><p>Ejemplo educativo para aprender formularios, estados y rúbricas.</p></header>
+<main>
+<aside class="aviso"><strong>Maqueta local con datos ficticios.</strong> No envía información, no genera una firma válida ni comprueba permisos o concurrencia del servidor. Recargar reinicia los datos.</aside>
+<section aria-labelledby="reserva-titulo"><h2 id="reserva-titulo">1. Ensaya el formulario</h2><p>Completa un contacto de ejemplo. Después prueba uno inválido y una sesión sin plazas.</p>
+<form id="reserva" novalidate>
+<div class="rejilla"><div><label for="nombre">Nombre inventado</label><input id="nombre" name="nombre" value="Persona Demo" required autocomplete="off"></div><div><label for="contacto">Correo ficticio</label><input id="contacto" name="contacto" type="email" value="persona@example.test" aria-describedby="contacto-ayuda contacto-error" required autocomplete="off"><small id="contacto-ayuda">Usa un dominio de ejemplo, como example.test.</small><p class="error" id="contacto-error"></p></div>
+<div><label for="tipo">Modalidad de atención clínica</label><select id="tipo"><option value="adulto">Adulto</option><option value="menor_representado">Menor representado</option></select></div>
+<div><label for="sesion">Sesión ficticia</label><select id="sesion"><option value="S001">Centro Norte · Individual · 11 junio 2030, 10:00</option><option value="S002">Centro Norte · Taller adulto · 11 junio 2030, 11:00</option><option value="S003">Centro Sur · Individual · Sin plazas</option></select></div></div>
+<button type="submit">Comprobar reserva local</button><button id="reiniciar" type="button" class="secundario">Reiniciar casos</button>
+<p id="resultado" class="resultado" role="status" aria-live="polite"></p>
+</form><details><summary>Ver el contrato de respuesta</summary><pre id="respuesta">Confirma una reserva para ver el ejemplo JSON.</pre></details>
+</section>
+<section aria-labelledby="firma-titulo"><h2 id="firma-titulo">2. Prueba la rúbrica de demostración</h2><p>Documento ADULTO-DEMO, versión 1. «Este trazo inventado sirve para practicar la captura. No expresa una autorización real».</p><p>Dibuja con ratón, dedo o lápiz. Comprueba el estado vacío antes de dibujar y tras borrar.</p>
+<canvas id="lienzo" width="1000" height="360" aria-label="Zona de dibujo de rúbrica ficticia">Tu navegador no muestra el lienzo; utiliza otro navegador para este ensayo de dibujo.</canvas>
+<div class="acciones"><button id="borrar" type="button" class="secundario">Borrar rúbrica</button><button id="comprobar" type="button">Comprobar trazo</button></div><p id="estado-firma" role="status" aria-live="polite">Lienzo vacío. Aún no hay ningún trazo.</p><p class="nota">La comprobación del cliente ayuda al usuario. En el MVP, el servidor debe volver a validar la imagen y su vínculo.</p>
+</section>
+<section><h2>3. Tu primera variante</h2><ol><li>Localiza <code>validarContacto</code> en <code>reglas.js</code> y explica una entrada válida y otra inválida.</li><li>Cambia una etiqueta en <code>index.html</code>, sin alterar el contrato.</li><li>Intenta reservar dos veces S001. Observa el rechazo local; explica por qué esto no prueba una carrera real.</li><li>En <code>LEEME.md</code> encontrarás los pasos para pasar del ejemplo a las comprobaciones del servidor.</li></ol></section>
+</main><footer>FM-WEB-01 · Sin cuentas, sin red y sin datos reales · Material inicial; el alumnado construye el MVP.</footer>
+<script src="reglas.js"></script><script src="interfaz.js"></script>
+</body></html>

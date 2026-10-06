@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "data": {
+    "reserva_codigo": "RV-DEMO-001",
+    "estado": "reservada",
+    "identidad": "pendiente",
+    "centro": "C01",
+    "servicio": "SV01",
+    "inicio": "2030-06-10T10:00:00+02:00",
+    "clave_gestion": "MOSTRAR_AQUI_LA_CLAVE_ALEATORIA_SOLO_UNA_VEZ"
+  }
+}

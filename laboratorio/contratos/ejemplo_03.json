@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "data": {
+    "reserva_codigo": "RV-DEMO-001",
+    "estado": "reservada",
+    "repetida": true,
+    "clave_gestion": null,
+    "recuperacion": "Solicita a recepción el restablecimiento de la clave."
+  }
+}

@@ -1,0 +1,9 @@
+SIMULACIÓN EDUCATIVA. DATOS Y RÚBRICA FICTICIOS.
+
+Este documento forma parte de una práctica de desarrollo web de Fundación. Registra el recorrido de la persona ficticia {{usuario_nombre_completo}}, con código {{usuario_codigo}}, en el centro {{centro_nombre}} ({{centro_codigo}}).
+
+La actividad de ejemplo es {{servicio_nombre}} ({{servicio_codigo}}), sesión {{sesion_codigo}}, prevista para {{sesion_inicio_local}}. La reserva de demostración es {{reserva_codigo}}. El usuario atendido y el firmante de este ejercicio son la misma persona ficticia.
+
+Antes de dibujar se revisan el nombre, el centro, la actividad y el texto completo. Si un dato no coincide con el caso preparado, se vuelve al registro para corregirlo antes de confirmar. El botón Borrar permite eliminar el trazo de ensayo y repetirlo.
+
+Al confirmar, la aplicación conserva una copia de este texto, sus datos de contexto, la versión de plantilla y la rúbrica de demostración. Esta práctica permite comprobar que el documento se recupera sin cambiar su contenido. No representa una autorización de uso real ni acredita identidad, consentimiento o validez jurídica.

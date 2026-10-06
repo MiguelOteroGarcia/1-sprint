@@ -1,0 +1,9 @@
+SIMULACIÓN EDUCATIVA. DATOS Y RÚBRICA FICTICIOS.
+
+Este documento forma parte de una práctica de desarrollo web de Fundación. Registra el caso individual del asistente ficticio {{usuario_nombre_completo}}, con código {{usuario_codigo}} y tipo de atención adulto. El propio asistente ficticio figura como firmante de este ejercicio.
+
+La actividad es {{servicio_nombre}} ({{servicio_codigo}}), sesión {{sesion_codigo}}, prevista para {{sesion_inicio_local}}, en el centro {{centro_nombre}} ({{centro_codigo}}). La reserva de esta persona es {{reserva_codigo}}. Este registro no incluye las identidades ni las rúbricas de otros asistentes.
+
+Antes de dibujar se revisan persona, reserva y sesión. Si falta la reserva o los datos no coinciden, se vuelve al registro; la firma no crea plazas adicionales. Cada asistente tiene su propio documento. Después de guardar, la aplicación prepara una pantalla y un lienzo vacíos para el siguiente caso.
+
+La copia conservada permite comprobar identidad, texto, versión y recuperación del documento de taller. Este documento no habilita el registro de resultados de pruebas del itinerario de 500 horas. No representa una autorización real de asistencia ni acredita consentimiento, identidad o validez jurídica.

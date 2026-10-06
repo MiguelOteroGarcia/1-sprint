@@ -1,0 +1,13 @@
+{
+  "sesion_id": 101,
+  "operacion": "OPERACION_DE_ENSAYO_EMITIDA_POR_SERVIDOR",
+  "prerregistro": {
+    "nombre": "Alba",
+    "apellidos": "Ejemplo Norte",
+    "fecha_nacimiento": "1990-04-12",
+    "tipo_atencion": "adulto",
+    "correo": "alba@example.test",
+    "telefono": null,
+    "representante": null
+  }
+}

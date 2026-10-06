@@ -1,0 +1,41 @@
+titulo,url,uso,estado
+Gemini: utilizar y crear Gems,https://support.google.com/gemini/answer/15146780?hl=es,Crear instrucciones reutilizables y añadir el contexto de la práctica.,VERIFICADO: página oficial leída.
+Claude: crear y gestionar proyectos,https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects,Consultar la ruta alternativa de proyecto e instrucciones si el alumno ya usa Claude.,VERIFICADO: página oficial leída; no ensayo de cuenta.
+"Guía Scrum 2020, español europeo",https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-European.pdf,"Distinguir responsabilidades, objetivo, revisión, retrospectiva y definición de terminado.",VERIFICADO: PDF oficial de 17 páginas leído.
+GitHub: Hola mundo,https://docs.github.com/es/get-started/using-github/hello-world,"Ensayar rama, cambio y pull request con un archivo pequeño.",VERIFICADO: página oficial leída.
+Pro Git: procedimientos básicos para ramificar y fusionar,https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Procedimientos-B%C3%A1sicos-para-Ramificar-y-Fusionar,Entender ramas y un conflicto sencillo antes de resolverlo con ayuda.,VERIFICADO: página oficial leída.
+GitHub: conflictos de fusión,https://docs.github.com/en/pull-requests/reference/merge-conflicts,Identificar por qué no se puede integrar y elegir la forma de resolver el conflicto.,VERIFICADO: página oficial leída.
+GitHub: planes y funciones,https://docs.github.com/es/get-started/learning-about-github/githubs-plans,Comprobar la ruta gratuita sin presuponer protección avanzada de ramas.,VERIFICADO: página oficial leída.
+GitHub: recursos de aprendizaje,https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources,Encontrar apoyo oficial adicional de Git y PR cuando se necesite.,VERIFICADO: página oficial leída.
+Laravel: versiones y soporte,https://laravel.com/docs/13.x/releases,Compatibilidad PHP y rama Laravel,VERIFICADO
+Laravel: proyecto y entorno,https://laravel.com/docs/13.x/installation,"Localizar .env, migraciones y ejecución",VERIFICADO
+PHP: ZIP Windows y runtime,https://windows.php.net/download/,"Elegir ZIP NTS x64, comprobar hash y runtime",VERIFICADO
+PHP: configuración manual Windows,https://www.php.net/manual/en/install.windows.manual.php,Configurar php.ini y extensiones del ZIP,VERIFICADO
+PHP: línea de comandos Windows,https://www.php.net/manual/en/install.windows.commandline.php,Usar ruta explícita sin cambiar el sistema,VERIFICADO
+Composer: descarga verificada,https://getcomposer.org/download/,Conseguir composer.phar y verificación oficial,VERIFICADO
+Composer: introducción,https://getcomposer.org/doc/00-intro.md,Comprender instalación local y dependencias,VERIFICADO
+PostgreSQL: Windows,https://www.postgresql.org/download/windows/,Instalador o ZIP de EDB enlazado por el proyecto,VERIFICADO
+PostgreSQL: versiones,https://www.postgresql.org/support/versioning/,Comprobar rama/parche soportado,VERIFICADO
+PostgreSQL: initdb,https://www.postgresql.org/docs/18/app-initdb.html,Crear clúster de práctica con autenticación,VERIFICADO
+PostgreSQL: pg_ctl,https://www.postgresql.org/docs/18/app-pg-ctl.html,Arrancar y parar instancia local sin servicio,VERIFICADO
+PostgreSQL: tutorial,https://www.postgresql.org/docs/18/tutorial.html,"Repasar tablas, consultas y transacciones con ejemplos",VERIFICADO
+PostgreSQL: bloqueos,https://www.postgresql.org/docs/18/explicit-locking.html,"Entender FOR UPDATE, espera y orden de bloqueos",VERIFICADO
+Laravel: transacciones,https://laravel.com/docs/13.x/database,Leer solo Database Transactions al practicar reserva,VERIFICADO
+Laravel: bloqueo pesimista,https://laravel.com/docs/13.x/queries#pessimistic-locking,Aplicar lockForUpdate dentro de transacción,VERIFICADO
+Laravel: autenticación,https://laravel.com/docs/13.x/authentication,Login por sesión y regeneración con API existente,VERIFICADO
+Laravel: autorización,https://laravel.com/docs/13.x/authorization,Una policy por operación y prueba permitida/denegada,VERIFICADO
+MDN: usar Pointer Events,https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events,Adaptar captura de trazos de ratón/lápiz/dedo,VERIFICADO
+dompdf: proyecto y limitaciones,https://github.com/dompdf/dompdf,PDF A4 con imagen local y CSS sencillo,VERIFICADO
+dompdf: versión 3.1.6,https://github.com/dompdf/dompdf/releases/tag/v3.1.6,Verificar versión publicada,VERIFICADO
+dompdf: dependencias y licencia,https://github.com/dompdf/dompdf/blob/v3.1.6/composer.json,Comprobar PHP/extensiones y LGPL-2.1,VERIFICADO
+PHP: servidor incorporado,https://www.php.net/manual/en/features.commandline.webserver.php,Entender límite de concurrencia en Windows,VERIFICADO
+Laravel: licencia MIT,https://github.com/laravel/framework/blob/13.x/LICENSE.md,Conservar licencia en redistribución,VERIFICADO
+PostgreSQL: licencia,https://www.postgresql.org/about/licence/,Comprobar uso y distribución,VERIFICADO
+PHP: licencias,https://www.php.net/license/,Consultar licencia y avisos de distribución,VERIFICADO
+Composer: licencia MIT,https://github.com/composer/composer/blob/main/LICENSE,Conservar avisos si se redistribuye,VERIFICADO
+Spring Boot: requisitos,https://docs.spring.io/spring-boot/system-requirements.html,Evaluar alternativa Java si el grupo la conoce,VERIFICADO
+Spring Boot: licencia,https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt,Verificar Apache 2.0 de la alternativa,VERIFICADO
+Laracasts: 30 Days to Learn Laravel,https://laracasts.com/series/30-days-to-learn-laravel-11,"Apoyo audiovisual de rutas/vistas/formularios; serie Laravel11, contrastar comandos con13",VERIFICADO
+Laravel: composer.json oficial,https://github.com/laravel/laravel/blob/13.x/composer.json,Comparar dependencias del esqueleto y evitar paquetes sin motivo,VERIFICADO
+30 Days to Learn Laravel · curso audiovisual de Laracasts,https://www.youtube.com/watch?v=SqTdHCTWqks,"Consulta opcional de rutas, vistas y formularios; seleccionar un fragmento relevante, no exigir ocho horas.",Metadatos y autor verificados por búsqueda; reproducción completa NO-VERIFICADO.
+Using Pointer Events · ejemplo de dibujo,https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events,Entender pointerdown/move/up y canvas del laboratorio.,VERIFICADO: página consultada.

@@ -1,0 +1,22 @@
+tipo_prueba,campo,formato,obligatorio,unidad,min_demo,max_demo,ejemplo,vacio
+bioimpedancia,altura,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,peso,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,grasa_pct,"decimal(9,3)",no; al menos una medida por registro,porcentaje_demo,0,100,5.5,null
+bioimpedancia,grasa_visceral,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,agua_pct,"decimal(9,3)",no; al menos una medida por registro,porcentaje_demo,0,100,5.5,null
+bioimpedancia,musculo,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,hueso,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,tmb,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioimpedancia,imc,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioquimica,vitamina_d,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioquimica,calcio,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioquimica,fosforo,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+bioquimica,magnesio,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+densitometria,t_score,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,-1.25,null
+densitometria,z_score,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,-1.25,null
+densitometria,bqi,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+densitometria,bua,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+densitometria,sos,"decimal(9,3)",no; al menos una medida por registro,unidad_demo,sin umbral sanitario,formato; sin umbral sanitario,5.5,null
+densitometria,frax_cadera,"decimal(9,3)",no; al menos una medida por registro,porcentaje_demo,0,100,5.5,null
+densitometria,frax_osteoporosis,"decimal(9,3)",no; al menos una medida por registro,porcentaje_demo,0,100,5.5,null
+densitometria,eva,"decimal(9,3)",no; al menos una medida por registro,escala_demo,0,10,5.5,null

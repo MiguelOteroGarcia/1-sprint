@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "data": {
+    "candidatos": [
+      {"id": 3, "codigo": "U003", "nombre": "Celia", "apellidos": "Ejemplo", "fecha_nacimiento": "1980-02-03"},
+      {"id": 4, "codigo": "U004", "nombre": "Dario", "apellidos": "Ejemplo", "fecha_nacimiento": "1982-05-06"}
+    ],
+    "aviso": "El contacto coincide. Compara los datos antes de elegir."
+  }
+}

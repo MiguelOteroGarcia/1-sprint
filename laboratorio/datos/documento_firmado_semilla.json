@@ -1,0 +1,16 @@
+{
+  "codigo": "DOC001",
+  "usuario": "U001",
+  "centro": "C01",
+  "reserva": "RV001",
+  "sesion": "S001",
+  "plantilla": "ADULTO-DEMO",
+  "version": 1,
+  "actual": true,
+  "estado": "firmado",
+  "solo_fixture": true,
+  "pdf": "datos/documento_firmado_semilla.pdf",
+  "png": "datos/imagenes/trazo_demo.png",
+  "texto_snapshot": "Documento sembrado de ensayo. No procede de captura del producto.",
+  "instrucciones": "Crear RV001 reservada sobre S001 para U001; resolver códigos a IDs, copiar archivos al almacenamiento privado y calcular hash_pdf. Reloj anterior al inicio. Nunca tratarlo como prueba de firma implementada."
+}

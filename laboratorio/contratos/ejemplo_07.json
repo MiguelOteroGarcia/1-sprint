@@ -1,0 +1,18 @@
+{
+  "persona_id": 1,
+  "centro_id": 1,
+  "tipo": "densitometria",
+  "fecha": "2030-06-10",
+  "documento_id": 301,
+  "esquema_version": 1,
+  "valores": {
+    "t_score": {"valor": -1.25, "unidad": "unidad_demo"},
+    "z_score": {"valor": null, "unidad": "unidad_demo"},
+    "bqi": {"valor": null, "unidad": "unidad_demo"},
+    "bua": {"valor": null, "unidad": "unidad_demo"},
+    "sos": {"valor": null, "unidad": "unidad_demo"},
+    "frax_cadera": {"valor": 0, "unidad": "porcentaje_demo"},
+    "frax_osteoporosis": {"valor": null, "unidad": "porcentaje_demo"},
+    "eva": {"valor": null, "unidad": "escala_demo"}
+  }
+}

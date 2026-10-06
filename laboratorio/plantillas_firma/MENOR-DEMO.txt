@@ -1,0 +1,9 @@
+SIMULACIÓN EDUCATIVA. DATOS Y RÚBRICA FICTICIOS.
+
+Este documento forma parte de una práctica de desarrollo web de Fundación. El usuario atendido de este caso es {{usuario_nombre_completo}}, con código {{usuario_codigo}} y tipo de atención menor representado. La persona que realiza la rúbrica ficticia es {{representante_nombre_completo}}, con código de representante {{representante_codigo}}.
+
+El ejercicio corresponde al centro {{centro_nombre}} ({{centro_codigo}}), a la actividad {{servicio_nombre}} ({{servicio_codigo}}) y a la sesión {{sesion_codigo}}, prevista para {{sesion_inicio_local}}. La reserva de demostración es {{reserva_codigo}}.
+
+Antes de dibujar se comprueba que usuario y representante son dos identidades distintas y que la relación indicada coincide con el caso preparado por recepción. La fecha de nacimiento no se utiliza para deducir una regla jurídica de representación. Si la relación o los datos no coinciden, se vuelve al registro y no se confirma el documento.
+
+Al confirmar se conserva una copia del texto mostrado, la identidad del usuario atendido, la identidad del representante firmante y la rúbrica de ensayo. El documento permite comprobar técnicamente esa separación. No acredita parentesco, representación legal, consentimiento ni validez jurídica de ninguna persona real.

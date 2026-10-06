@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "SIN_PLAZAS",
+    "mensaje": "No quedan plazas en el destino. Tu cita actual se conserva.",
+    "campos": {"sesion_destino_id": ["Elige otra sesión."]}
+  }
+}

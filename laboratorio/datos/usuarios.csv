@@ -1,0 +1,6 @@
+codigo,nombre,apellidos,fecha_nacimiento,tipo,estado,contacto,representante
+U001,Persona,Demo Uno,1990-01-10,adulto,confirmado,uno@example.test,
+U002,Persona,Demo Dos,2015-02-20,menor_representado,confirmado,,R001
+U003,Familiar,Demo Tres,1985-03-01,adulto,confirmado,familia@example.test,
+U004,Familiar,Demo Cuatro,1987-04-01,adulto,confirmado,familia@example.test,
+U005,Persona,Demo Inactiva,1980-01-01,adulto,inactivo,inactiva@example.test,

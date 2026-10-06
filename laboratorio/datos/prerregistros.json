@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PR001",
+    "sesion": "S001",
+    "nombre": "Familiar Demo Tres",
+    "contacto": "familia@example.test",
+    "estado": "pendiente",
+    "usuario_confirmado": null
+  },
+  {
+    "id": "PR002",
+    "sesion": "S001",
+    "nombre": "Persona Demo Nueva",
+    "contacto": "nueva@example.test",
+    "estado": "pendiente",
+    "usuario_confirmado": null
+  }
+]

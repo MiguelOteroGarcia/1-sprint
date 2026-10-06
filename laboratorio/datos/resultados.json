@@ -1,0 +1,47 @@
+[
+  {
+    "id": "RES001",
+    "usuario": "U001",
+    "centro": "C01",
+    "tipo": "bioimpedancia",
+    "fecha": "2030-06-10",
+    "documento": "DOC001",
+    "version": 1,
+    "valores": {
+      "altura": {
+        "valor": 5.5,
+        "unidad": "unidad_demo"
+      }
+    }
+  },
+  {
+    "id": "RES002",
+    "usuario": "U001",
+    "centro": "C01",
+    "tipo": "bioquimica",
+    "fecha": "2030-06-10",
+    "documento": "DOC001",
+    "version": 1,
+    "valores": {
+      "vitamina_d": {
+        "valor": 5.5,
+        "unidad": "unidad_demo"
+      }
+    }
+  },
+  {
+    "id": "RES003",
+    "usuario": "U001",
+    "centro": "C01",
+    "tipo": "densitometria",
+    "fecha": "2030-06-10",
+    "documento": "DOC001",
+    "version": 1,
+    "valores": {
+      "t_score": {
+        "valor": 5.5,
+        "unidad": "unidad_demo"
+      }
+    }
+  }
+]

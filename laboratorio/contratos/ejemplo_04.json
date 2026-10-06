@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "error": {
+    "codigo": "DATOS_INVALIDOS",
+    "mensaje": "Revisa el contacto indicado.",
+    "campos": {"prerregistro.correo": ["Indica un correo válido o un teléfono."]}
+  }
+}
