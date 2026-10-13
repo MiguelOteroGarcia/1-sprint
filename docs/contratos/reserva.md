@@ -27,6 +27,19 @@ El formulario público recoge los datos de la sesión elegida y el prerregistro 
 
 > **Nota de seguridad del contrato:** El cliente jamás envía `persona_id`, `canal`, `estado`, `payload_hash` ni identificadores de centro. El servidor deduce centro y servicio directamente de la sesión bajo transacción.
 
+## Resumen
+
+| Dato | Ejemplo |
+| --- | --- |
+| Centro | `C01` · Centro Norte |
+| Servicio | `SV01` · atención individual (30 minutos) |
+| Sesión | `sesion_id: 101` |
+| Nombre | Alba Ejemplo Norte |
+| Fecha y hora de la sesión | `2030-06-10T10:00:00+02:00` |
+| Contacto | `alba@example.test` |
+| Estado de la reserva | `reservada` |
+| Estado de identidad | `pendiente` |
+
 ---
 
 ## 2. Distinción Crítica: Solicitud de Reserva vs. Identidad Pendiente
@@ -69,3 +82,41 @@ La maqueta local de desarrollo (`laboratorio/index.html`) simula este contrato e
 | **Caso Concurrente (Última plaza):** Dos envíos simultáneos sobre sesión con 1 plaza libre. | `201` en uno y `409` en otro (`sin_plaza.json`) | Un usuario confirma; el segundo recibe notificación de sesión llena sin perder sus datos. | **Concurrencia:** La maqueta monousuario no puede simular colisiones. Requiere `SELECT ... FOR UPDATE` en PostgreSQL para serializar transacciones y evitar sobreventa. |
 | **Caso Idempotencia (500h):** Doble clic con misma `operacion` y mismo payload. | `200 OK` (`repetido.json`) | Muestra la cita ya creada sin duplicar reserva ni descontar una segunda plaza. | **Unicidad en BD:** La maqueta no controla duplicados en red. El servidor aplica restricción `UNIQUE` en la columna `operacion` y cotejo de `payload_hash`. |
 | **Caso Autorización:** Intento de confirmar persona o firmar documento desde el formulario público. | `403 Forbidden` / No disponible | El formulario público no expone ni permite selectores de `persona_id` ni firma. | **Control de Acceso (RBAC):** Ocultar controles en HTML/CSS no protege el sistema. Solo endpoints autenticados de recepción con sesión de personal activa pueden confirmar identidades o gestionar firmas. |
+## Ejemplo ficticio
+
+**Solicitud** (`POST /reservas`):
+
+```json
+{
+  "sesion_id": 101,
+  "operacion": "OPERACION_DE_ENSAYO_EMITIDA_POR_SERVIDOR",
+  "prerregistro": {
+    "nombre": "Alba",
+    "apellidos": "Ejemplo Norte",
+    "fecha_nacimiento": "1990-04-12",
+    "tipo_atencion": "adulto",
+    "correo": "alba@example.test",
+    "telefono": null,
+    "representante": null
+  }
+}
+```
+
+**Respuesta:**
+
+```json
+{
+  "ok": true,
+  "data": {
+    "reserva_codigo": "RV-DEMO-001",
+    "estado": "reservada",
+    "identidad": "pendiente",
+    "centro": "C01",
+    "servicio": "SV01",
+    "inicio": "2030-06-10T10:00:00+02:00",
+    "clave_gestion": "MOSTRAR_AQUI_LA_CLAVE_ALEATORIA_SOLO_UNA_VEZ"
+  }
+}
+```
+
+El centro y el servicio se obtienen de la sesión. La solicitud guarda una reserva, pero no confirma la identidad: recepción puede crear o vincular la persona atendida, o mantener el caso pendiente. `fecha_nacimiento` no es la fecha de la sesión. Todos los datos son ficticios.
